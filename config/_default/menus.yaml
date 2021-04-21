@@ -1,0 +1,99 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: ''
+    weight: 10
+
+  - name: Research
+    url: 'research'
+    weight: 20
+    identifer: Research
+  - name: Crop Genomics
+    url: 'research/crop-genomics'
+    weight: 10
+    parent: Research
+  - name: Population Genomics
+    url: 'research/population-genomics'
+    weight: 20
+    parent: Research
+  - name: Genomic Breeding
+    url: 'research/genomic-breeding'
+    weight: 30
+    parent: Research
+  - name: Bioinformatics
+    url: 'research/bioinformatics'
+    weight: 40
+    parent: Research
+  - name: Systems Biology
+    url: 'research/systems-biology'
+    weight: 50
+    parent: Research
+  - name: Human Health
+    url: 'research/human-health'
+    weight: 60
+    parent: Research
+
+  - name: Education
+    url: 'education'
+    weight: 30
+    identifer: Education
+  - name: Graduate Courses
+    url: 'education#graduate_courses'
+    weight: 10
+    parent: Education
+  - name: Upcoming Undergraduate Cources
+    url: 'education#upcoming_courses'
+    weight: 20
+    parent: Education
+
+  - name: People
+    url: 'people'
+    weight: 40
+    identifer: People
+  - name: Current
+    url: 'people#current'
+    weight: 10
+    parent: People
+  - name: Alumni
+    url: 'people#alumni'
+    weight: 20
+    parent: People
+  - name: Lab Activities
+    url: 'people#lab_activities'
+    weight: 30
+    parent: People
+
+  - name: Publications
+    url: 'publication'
+    weight: 50
+
+  - name: News
+    url: 'news'
+    weight: 60
+
+  - name: Resources
+    url: 'resources'
+    weight: 70
+    identifer: Resources
+  - name: Databases
+    url: 'resources#databases'
+    weight: 10
+    parent: Resources
+  - name: Tools
+    url: 'resources#tools'
+    weight: 20
+    parent: Resources
+
+  - name: Contact us
+    url: 'contact-us'
+    weight: 80
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
